@@ -1,10 +1,12 @@
 import './App.css';
 import React from 'react';
+import styles from './mystyle.module.css';
+import Radio from './components/Radio';
 
 function App() {
   return (
     <>
-    <h1>shanto</h1>
+      <Radio title="STATIONS"/>
     </>
   );
 }
